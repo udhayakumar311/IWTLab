@@ -1,0 +1,46 @@
+/*.c {
+    min-height: 100vh;
+    width: 20%;
+    background-image: linear-gradient(rgba(4, 10, 30, 0.7), rgba(4, 10, 30, 0.7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}*/
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+
+    position: relative;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+
+}
+
+.course-col {
+    /*width: 500%;*/
+    margin: auto;
+    text-align: left;
+   /* padding-top: 100px;*/
+    background: #f7f3f383;
+    box-sizing:border-box;
+    transition: 0.5s;
+    position: relative;
+   /* box-align: left;*/
+    border-radius: 20px;
+    margin-bottom: 5%;
+   /* padding: 30px 12px;*/
+    font-size: 30px;
+    flex-basis: 60%;
+	padding: 30px 400px;
+
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(1, 2, 2, 2);
+
+}
