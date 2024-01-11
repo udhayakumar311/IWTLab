@@ -1,0 +1,38 @@
+/* style.css */
+body {
+    background-image: url('./images/mwp\ 3.jpg'); /* Set the background image */
+    background-color: #000;
+    color: #fff;
+    background-size: cover; /* Adjust the background image size to cover the entire viewport */
+}
+/* style.css */
+.alert {
+    background-color: rgba(0, 0, 0, 0.5); /* Set a transparent background color (adjust the alpha value as needed) */
+    color: #fff;
+    border-radius: 45px; /* Add rounded corners */
+    max-width: 500px; /* Reduce the width of the alert */
+    margin: 0 auto; /* Center the alert horizontally */
+}
+
+.alert h3 {
+    margin: 0; /* Remove margin for the heading */
+}
+
+
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+}
+
+.table {
+    background-color: #333;
+    color: #fff;
+}
+
+.table th, .table td {
+    border-color: #444;
+    color: #fff;
+}
+
+/* You can add more styles as needed */
