@@ -1,0 +1,174 @@
+/* Reset default styles and use modern fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Navbar styles */
+#nav_bar {
+    background-color: #222;
+    padding: 10px 0;
+    border: none;
+}
+
+#nav_list > li > a {
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#nav_list > li > a:hover {
+    color: #4aa1f3;
+}
+
+#logo {
+    max-height: 32px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Header styles */
+#headRow {
+    background: url('Images/bg.jpg') center/cover;
+    height: 450px;
+    text-align: center;
+    color: #fff;
+}
+
+#colHeadText1 {
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+#colHeadText2 {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Search input styles */
+#cityDiv {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type='text'] {
+    height: 40px;
+    font-size: 18px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#submitCity {
+    height: 40px;
+    font-weight: bold;
+    background-color: #4aa1f3;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submitCity:hover {
+    background-color: #357abf;
+}
+
+#errorCity {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Weather display styles */
+#showWeather {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #4aa1f3;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    background: #4aa1f3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+}
+
+td {
+    background: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Other styles */
+#welcome-paragraph {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 12px 25px 40px 25px;
+    letter-spacing: 0.5px;
+}
+
+#rowDiv {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+#colDesc h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.info-icon {
+    text-align: center;
+}
+
+.info-icon i {
+    font-size: 48px;
+    margin-top: 10px;
+    color: #4aa1f3;
+}
+
+/* Typing animation cursor styles */
+.typed-cursor {
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
